@@ -1,2 +1,1 @@
 # Ninja
-NINJA PROJECT

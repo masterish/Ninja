@@ -6,7 +6,6 @@ class Transform;
 class Collider
 {
 public:
-	Collider() = default;
 	Collider();
 	~Collider();
 

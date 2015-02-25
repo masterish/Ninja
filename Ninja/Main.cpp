@@ -13,11 +13,7 @@ union lol
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(500, 500), "SFML works!");
-
-	lol lol2;
-
-	lol2.i = 12;
+    sf::RenderWindow window(sf::VideoMode(500, 500), "Ninja Project");
 
 	sf::Clock gameClock;
 	gameClock.restart();

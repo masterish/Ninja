@@ -5,6 +5,7 @@
 class Collider;
 class Transform;
 class PhysicSystem;
+class Map;
 
 class Player
 {

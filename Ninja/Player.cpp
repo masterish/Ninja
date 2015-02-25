@@ -19,7 +19,7 @@ Player::Player()
 
 	transform = new Transform();
 	transform->setPosition(sf::Vector2f(100, 100));
-	transform->setSize(sf::RectangleShape(sf::Vector2f(standTexture.getSize().x, standTexture.getSize().y)));
+	transform->setSize(sf::RectangleShape(sf::Vector2f((float)standTexture.getSize().x, (float)standTexture.getSize().y)));
 
 	collider = new Collider();
 	collider->initialize(transform);

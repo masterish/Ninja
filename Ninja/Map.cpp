@@ -27,7 +27,7 @@ void Map::drawMap(sf::RenderWindow& window)
 	{
 		for (int j = 0; j < 50; j++)
 		{
-			if (tiles[j][i])
+			if (tiles[j][i].type == 1)
 			{
 				solidTileTexture.setPosition(i * 10.f, j * 10.f);
 				window.draw(solidTileTexture);
